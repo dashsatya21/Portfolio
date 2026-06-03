@@ -859,7 +859,7 @@ function Navbar({ activeNav, onNavClick }) {
               onClick={() => handleClick(n)}
               onMouseEnter={() => setHoveredNav(n)}
               onMouseLeave={() => setHoveredNav(null)}
-              style={{ background: "transparent", border: "none", padding: "12px 24px", textAlign: "left", cursor: "pointer", ...navTextStyle(n) }}
+              style={{ background: "transparent", border: "none", padding: "12px 24px", textAlign: "left", cursor: "pointer", fontFamily: '"Dancing Script", cursive', fontSize: 20, ...navTextStyle(n) }}
             >
               {n}
             </button>
