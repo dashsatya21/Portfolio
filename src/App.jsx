@@ -776,7 +776,7 @@ function NavLogo() {
       height="38"
       style={{
         flexShrink: 0,
-        filter: `drop-shadow(0 0 15px ${color}99)`,
+        filter: `drop-shadow(0 0 25px ${color})`,
         transition: "filter 0.5s ease-in-out infinite",
       }}
     />
