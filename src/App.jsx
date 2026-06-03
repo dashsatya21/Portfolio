@@ -276,7 +276,7 @@ function TypewriterBadge({
 // ANIMATED DOTS CANVAS
 // ─────────────────────────────────────────────────────────────────────────────
 
-const DOT_COUNT     = 110;
+const getDotCount  = () => Math.floor((window.innerWidth * window.innerHeight) / 5000);
 const DOT_LINK_DIST = 100;
 
 function DotsCanvas() {
@@ -288,20 +288,25 @@ function DotsCanvas() {
     const ctx = canvas.getContext("2d");
     let raf;
 
+    const dots = [];
+
     const resize = () => {
       canvas.width  = window.innerWidth;
       canvas.height = window.innerHeight;
+      const newCount = getDotCount();
+      dots.length = 0;
+      for (let i = 0; i < newCount; i++) {
+        dots.push({
+          x:  Math.random() * canvas.width,
+          y:  Math.random() * canvas.height,
+          r:  Math.random() * 3 + 1,
+          vx: (Math.random() - 0.5) * 1.4,
+          vy: (Math.random() - 0.5) * 1.4,
+        });
+      }
     };
     resize();
     window.addEventListener("resize", resize);
-
-    const dots = Array.from({ length: DOT_COUNT }, () => ({
-      x:  Math.random() * window.innerWidth,
-      y:  Math.random() * window.innerHeight,
-      r:  Math.random() * 3 + 1,
-      vx: (Math.random() - 0.5) * 1.4,
-      vy: (Math.random() - 0.5) * 1.4,
-    }));
 
     const animate = () => {
       raf = requestAnimationFrame(animate);
@@ -321,8 +326,8 @@ function DotsCanvas() {
 
       // Draw connecting lines
       ctx.beginPath();
-      for (let i = 0; i < DOT_COUNT; i++) {
-        for (let j = i + 1; j < DOT_COUNT; j++) {
+      for (let i = 0; i < dots.length; i++) {
+        for (let j = i + 1; j < dots.length; j++) {
           if (Math.hypot(dots[j].x - dots[i].x, dots[j].y - dots[i].y) < DOT_LINK_DIST) {
             ctx.moveTo(dots[i].x, dots[i].y);
             ctx.lineTo(dots[j].x, dots[j].y);
