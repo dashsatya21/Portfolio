@@ -18,15 +18,15 @@ const GLOW_RGB = "94,207,255";
 
 const PROFILE = {
   name:     "Satyabrata Dash",
-  role:     "Support Operations Specialist @ Amazon → Backend Developer",
-  stack:    "Java · Spring Boot · PostgreSQL",
+  role:     "Support Operations Specialist @ Amazon → Backend Engineer",
+  stack:    "Java · Spring Boot · SQL · REST APIs",
   location: "Bengaluru, India",
   email:    "satyabrata211297@gmail.com",
   phone:    "+91 7008651986",
   linkedin: "https://www.linkedin.com/in/satyabrata2112",
   github:   "https://github.com/dashsatya21",
   summary:
-    "Highly disciplined backend-focused professional with 3+ years of experience, honing stakeholder communication, operational rigour, instinct for anticipating failure, and a systems-thinking mindset. Translated that into software as a self-taught Java and Spring Boot developer with 4 live, production-grade projects spanning API design, database management, and system optimisation.",
+    "Backend-focused professional with 3+ years in operations — building stakeholder communication, operational rigour, an instinct for anticipating failure, and a systems-thinking mindset. Translated that foundation into software as a self-taught Java and Spring Boot developer, with 4 live production-grade projects spanning API design, database management, and system optimisation."
   skills: [
     { cat: "Language",       val: "Core Java, OOPs, Collections, Data Structures & Algorithms (DSA), Servlets, JSP" },
     { cat: "Frameworks",     val: "Spring Boot (Microservices), Spring (IOC & MVC), Hibernate (ORM)" },
