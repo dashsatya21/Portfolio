@@ -68,14 +68,14 @@ const PROFILE = {
       ],
     },
     {
-      role: "Reservations Associate",
+      role: "Regional Reservations Associate",
       company: "TAJ Group of Hotels (IHCL)",
       period: "06/2022 – 09/2022",
       loc: "Chennai, India",
       bullets: [
-        "Managed guest reservations, booking modifications, and customer inquiries for 5 hotels while ensuring timely service delivery.",
-        "Coordinated with internal teams to ensure smooth reservation operations and customer satisfaction.",
-        "Handled high-volume customer interactions through calls and emails while maintaining accuracy and professionalism.",
+        "Managed end-to-end reservations for 5 Taj hotels across multiple channels - telephone, mail, fax, OTA, and central reservation systems - maintaining accurate records and ensuring seamless communication of updates, cancellations, and modifications to the front desk.",
+        "Drove revenue optimization by determining strategic room rates and contributing to occupancy forecasts, leveraging in-depth knowledge of room categories, package plans, selling status, and credit policies.",
+        "Delivered exceptional guest experience by responding promptly to inquiries, preparing confirmation letters, and arranging client travel programs, while researching seasonal trends to target new clientele and maintaining a courteous, professional rapport with guests, managers, and fellow employees.",
       ],
     },
   ],
