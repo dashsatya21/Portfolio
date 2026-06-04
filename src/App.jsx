@@ -55,7 +55,7 @@ const PROFILE = {
     {
       role: "Student Success Specialist",
       company: "BYJU'S",
-      period: "10/2022 – 04/2024",
+      period: "09/2022 – 04/2024",
       loc: "Bengaluru, India",
       bullets: [
         "Managed a team of 10 mentors to deliver high-quality customer service while consistently meeting KPIs and SLAs.",
@@ -70,7 +70,7 @@ const PROFILE = {
     {
       role: "Reservations Associate",
       company: "TAJ Group of Hotels (IHCL)",
-      period: "06/2022 – 10/2022",
+      period: "06/2022 – 09/2022",
       loc: "Chennai, India",
       bullets: [
         "Managed guest reservations, booking modifications, and customer inquiries for 5 hotels while ensuring timely service delivery.",
@@ -859,7 +859,7 @@ function Navbar({ activeNav, onNavClick }) {
               onClick={() => handleClick(n)}
               onMouseEnter={() => setHoveredNav(n)}
               onMouseLeave={() => setHoveredNav(null)}
-              style={{ background: "transparent", border: "none", padding: "12px 24px", textAlign: "left", cursor: "pointer", fontFamily: '"Dancing Script", cursive', fontSize: 20, ...navTextStyle(n) }}
+              style={{ background: "transparent", border: "none", padding: "12px 24px", textAlign: "left", cursor: "pointer", fontFamily: '"Dancing Script", cursive', fontSize: 15, ...navTextStyle(n) }}
             >
               {n}
             </button>
