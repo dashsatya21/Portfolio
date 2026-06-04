@@ -40,7 +40,7 @@ const PROFILE = {
     {
       role: "Support Operations Specialist",
       company: "Amazon",
-      period: "02/2025 – Present",
+      period: "02/2025 – 08/2026",
       loc: "Bengaluru, India",
       bullets: [
         "Resolved 30+ complex FBA inventory, reimbursement, policy-related and operational cases for sellers daily with 100% accuracy while ensuring compliance with Amazon operational standards and seller policies.",
