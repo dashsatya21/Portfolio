@@ -40,7 +40,7 @@ const PROFILE = {
     {
       role: "Support Operations Specialist",
       company: "Amazon",
-      period: "02/2025 – Present",
+      period: "02/2025 – 08/2026",
       loc: "Bengaluru, India",
       bullets: [
         "Resolved 30+ complex FBA inventory, reimbursement, policy-related and operational cases for sellers daily with 100% accuracy while ensuring compliance with Amazon operational standards and seller policies.",
@@ -55,7 +55,7 @@ const PROFILE = {
     {
       role: "Student Success Specialist",
       company: "BYJU'S",
-      period: "10/2022 – 04/2024",
+      period: "09/2022 – 04/2024",
       loc: "Bengaluru, India",
       bullets: [
         "Managed a team of 10 mentors to deliver high-quality customer service while consistently meeting KPIs and SLAs.",
@@ -70,7 +70,7 @@ const PROFILE = {
     {
       role: "Reservations Associate",
       company: "TAJ Group of Hotels (IHCL)",
-      period: "06/2022 – 10/2022",
+      period: "06/2022 – 09/2022",
       loc: "Chennai, India",
       bullets: [
         "Managed guest reservations, booking modifications, and customer inquiries for 5 hotels while ensuring timely service delivery.",
