@@ -26,7 +26,7 @@ const PROFILE = {
   linkedin: "https://www.linkedin.com/in/satyabrata2112",
   github:   "https://github.com/dashsatya21",
   summary:
-    "Backend-focused professional with 3+ years in operations — building stakeholder communication, operational rigour, an instinct for anticipating failure, and a systems-thinking mindset. Translated that foundation into software as a self-taught Java and Spring Boot developer, with 4 live production-grade projects spanning API design, database management, and system optimisation."
+    "Backend-focused professional with 3+ years in operations — building stakeholder communication, operational rigour, an instinct for anticipating failure, and a systems-thinking mindset. Translated that foundation into software as a self-taught Java and Spring Boot developer, with 4 live production-grade projects spanning API design, database management, and system optimisation.",
   skills: [
     { cat: "Language",       val: "Core Java, OOPs, Collections, Data Structures & Algorithms (DSA), Servlets, JSP" },
     { cat: "Frameworks",     val: "Spring Boot (Microservices), Spring (IOC & MVC), Hibernate (ORM)" },
