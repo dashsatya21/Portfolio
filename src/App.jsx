@@ -28,13 +28,14 @@ const PROFILE = {
   summary:
     "I'm a backend developer with 3+ years of operations experience at Amazon and BYJU'S, where I learned to diagnose failures under pressure through root-cause analysis, SOP design, and systems that had to hold up at scale. I've applied that same discipline to backend development - building four full-stack Java and Spring Boot applications with PostgreSQL, Docker, and strong test coverage. <br /><br />I bring the same structured, root-cause mindset to both domains - equally suited to owning complex operations work (case investigation, escalation management, process design) or shipping backend features. Whether your team needs operational rigor or engineering execution, I'd welcome the conversation.",
   skills: [
-    { cat: "Language",       val: "Core Java, OOPs, Collections, Data Structures & Algorithms (DSA), Servlets, JSP" },
-    { cat: "Frameworks",     val: "Spring Boot (Microservices), Spring (IOC & MVC), Hibernate (ORM)" },
+    { cat: "Language",       val: "Core Java, OOP, Collections, Data Structures & Algorithms (DSA), Servlets, JSP" },
+    { cat: "Frameworks",     val: "Spring Boot (Microservices), Spring (IoC & MVC), Hibernate (ORM)" },
     { cat: "APIs & Testing", val: "RESTful APIs, JSON, JUnit 5, Postman, OpenAPI 3 (Swagger)" },
     { cat: "Database",       val: "PostgreSQL, SQL (CRUD, Joins, Indexing), JDBC" },
-    { cat: "Tools & AI",     val: "Maven, GitHub, Eclipse IDE, Copilot, Claude" },
-    { cat: "Concepts",       val: "Caching, Debugging, Log Analysis, Query Optimisation, SDLC, Agile" },
-    { cat: "Additional",     val: "IBM Planning Analytics, Amazon Web Services (AWS), Excel, PowerBI" },
+    { cat: "DevOps & Tools", val: "Docker, Maven, GitHub, Eclipse IDE" },
+    { cat: "Concepts",       val: "Caching (Caffeine), Debugging, Log Analysis, Query Optimisation, SDLC, Agile" },
+    { cat: "Additional",     val: "IBM Planning Analytics (TM1), Amazon Web Services (AWS), Advanced Excel, PowerBI" },
+    { cat: "AI Assisted Dev",val: "GitHub, Copilot, Claude" },
   ],
   experience: [
     {
