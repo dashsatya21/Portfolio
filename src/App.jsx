@@ -26,7 +26,7 @@ const PROFILE = {
   linkedin: "https://www.linkedin.com/in/satyabrata2112",
   github:   "https://github.com/dashsatya21",
   summary:
-    "I'm a backend developer with 3+ years of operations experience at Amazon and BYJU'S, where I learned to diagnose failures under pressure through root-cause analysis, SOP design, and systems that had to hold up at scale. I've applied that same discipline to backend development - building four full-stack Java and Spring Boot applications with PostgreSQL, Docker, and strong test coverage. <br /><br />I bring the same structured, root-cause mindset to both domains - equally suited to owning complex operations work (case investigation, escalation management, process design) or shipping backend features. Whether your team needs operational rigor or engineering execution, I'd welcome the conversation.",
+    "I'm a backend developer with 3+ years of operations experience at Amazon and BYJU'S, where I learned to diagnose failures under pressure through root-cause analysis, SOP design, and systems that had to hold up at scale. I've applied that same discipline to backend development - building four full-stack Java and Spring Boot applications with PostgreSQL, Docker, and strong test coverage.\nI bring the same structured, root-cause mindset to both domains - equally suited to owning complex operations work (case investigation, escalation management, process design) or shipping backend features. Whether your team needs operational rigor or engineering execution, I'd welcome the conversation.",
   skills: [
     { cat: "Language",       val: "Core Java, OOP, Collections, Data Structures & Algorithms (DSA), Servlets, JSP" },
     { cat: "Frameworks",     val: "Spring Boot (Microservices), Spring (IoC & MVC), Hibernate (ORM)" },
@@ -987,7 +987,9 @@ export default function Portfolio() {
 
           {/* Summary */}
           <div style={{ background: `rgba(${GLOW_RGB},0.05)`, border: `1px solid rgba(${GLOW_RGB},0.14)`, borderLeft: `3px solid ${ACCENT}`, borderRadius: "0 10px 10px 0", padding: "16px 20px", fontSize: 22, lineHeight: 1.8, color: "rgba(255,255,255,0.8)" }}>
-            {PROFILE.summary}
+			{PROFILE.summary.split("\n").map((para, i) => (
+				<p key={i} style={{ margin: i === 0 ? "0 0 14px" : 0 }}>{para}</p>
+			))}
           </div>
         </section>
 
