@@ -132,13 +132,15 @@ const PROFILE = {
 };
 
 const NON_TECH_SKILLS = [
-  { category: "Operations & Case Management",  color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["End-to-End Issue Resolution", "SLA Adherence", "Inventory Audits"] },
-  { category: "Quality & Compliance",          color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Process Audits", "Quality Assurance (QA)", "SOP Implementation"] },
-  { category: "Data Visualisation & Reporting",color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Data Visualisation", "Dashboard Interpretation", "Analytical Reporting", "Insight Communication"] },
-  { category: "Analysis & Communication",      color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Root Cause Analysis (RCA)", "Stakeholder Collaboration", "Customer Obsession"] },
-  { category: "Core Professional Skills",      color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Analytical Thinking", "Problem Solving", "Business Communication", "Attention to Detail"] },
+  { category: "Investigations & Case Management",    color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Case Investigation & Resolution", "End-to-End Issue Resolution", "Escalation Management", "Risk-Based Decision Making", "Inventory Audits"] },
+  { category: "Customer & Seller Operations",        color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Support Operations", "Customer Relationship Management", "Conflict Resolution", "Customer Obsession"] },
+  { category: "Process & Performance Management",    color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["SLA & KPI Management", "Process Improvement & Workflow Optimization", "Performance Tracking & MIS Reporting (QuickSight)", "Time Management & Multitasking"] },
+  { category: "Quality & Compliance",                color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Compliance Adherence", "Policy Implementation", "SOP Implementation", "Process Audits", "Quality Assurance (QA)", "Stakeholder Coordination"] },
+  { category: "Leadership & Team Management",        color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Team Mentoring & Training", "Team Coordination", "Shift-Based Operations Management", "Cross-Functional Collaboration"] },
+  { category: "Tools & Platforms",                   color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Internal CRM & Ticketing Systems (Simple Issue Management)", "Case Management System (Paragon)", "Advanced Excel", "Google Sheets", "PowerBI", "Slack", "Asana"] },
+  { category: "Analysis & Reporting",                color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Root Cause Analysis (RCA)", "Data Analysis & Reporting", "Data Visualisation", "Dashboard Interpretation", "Analytical Reporting", "Insight Communication"] },
+  { category: "Core Professional Skills",            color: ACCENT, glow: `rgba(${GLOW_RGB},0.18)`, skills: ["Analytical Thinking", "Problem Solving", "Attention to Detail", "Business Communication"] },
 ];
-
 // ─────────────────────────────────────────────────────────────────────────────
 // SHARED STYLES  (avoids inline-object duplication across cards)
 // ─────────────────────────────────────────────────────────────────────────────
